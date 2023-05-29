@@ -1,0 +1,126 @@
+/* Global Style */
+body {
+    font-size:16px ;
+    color: white;
+    background-color: #e7f2ff;
+    font-family: Lato,Helvetica Neue,Helvetica,Arial,Liberation Sans,sans-serif;
+}
+
+/* Header */
+
+.navbar-brand{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    margin: 10px 15px 10px 0px;
+   
+    
+}
+
+#container-heading{
+    text-align: center;
+}
+#tagline{
+    
+    color: #f7c020;
+    
+}
+/* .nav-link:hover{
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad,
+    0 0 50px #ff96ad, 0 0 200px #ff96ad;
+} */
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:visited{
+    color: white;
+}
+/* Media Queries */
+/* Extra Large Devices */
+
+@media (min-width:1200px){
+    #navbarSupportedContent{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+    }
+    
+}
+/* Extra Large Devices */
+
+@media (min-width:1200px) {
+    .carousel-caption{
+        color: black;
+    }
+}
+/* Large Devices */
+
+@media (min-width:992px) and (max-width:1199px)  {
+    #navbarSupportedContent{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+    }
+    .carousel-caption{
+        color: black;
+    }
+}
+/* Medium Devices */
+
+ @media (min-width:768px) and (max-width:991px) {
+    
+    
+ }
+
+/* For Extra small Devices */
+@media (max-width:575px) {
+    .carousel-caption {
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top:60px;
+        text-align: center;
+    }
+    
+}
+
+
+/* Customized BreakPoint for our Heading */
+
+@media (max-width:350px)  {
+    #heading-text{
+        font-size: 16px;
+    }
+    #tagline{
+        font-size: 12px;
+    }
+}
+
+.nav-link:hover{
+    box-shadow: inset -10.5em 0 0 0 white, inset 10.5em 0 0 0 white;
+    color: black;
+}
+
+
+.navbar-toggler-icon{
+    background-color:white;
+}
+
+.carousel-item{
+    height: 70vh;
+}
+
+.carousel-caption{
+    color: black;
+}
+.item-one-url:visited{
+    color: black;
+}
+.item-two-url:visited,.item-three-url:visited {color: white;
+    }
+
