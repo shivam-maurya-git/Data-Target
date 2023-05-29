@@ -9,7 +9,7 @@ body {
 /* Header */
 
 .navbar-brand{
-    background-image: url(logo.png);
+    background-image: url(images\logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100px;
