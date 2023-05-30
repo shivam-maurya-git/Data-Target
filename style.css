@@ -49,6 +49,13 @@ body {
         flex-direction: row;
         justify-content:flex-end;
     }
+    .carousel-caption {
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top:100px;
+        text-align: center;
+    }
     
 }
 /* Extra Large Devices */
@@ -66,16 +73,39 @@ body {
         flex-direction: row;
         justify-content:flex-end;
     }
-    .carousel-caption{
-        color: black;
+    
+    .carousel-caption {
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top:100px;
+        text-align: center;
     }
 }
 /* Medium Devices */
 
  @media (min-width:768px) and (max-width:991px) {
-    
+    .carousel-caption {
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top:100px;
+        text-align: center;
+    }
     
  }
+/* For small devices */
+
+@media (min-width:576px) and (max-width:767px){
+    .carousel-caption {
+        position: absolute;
+        margin-right: auto;
+        margin-left: auto;
+        top:100px;
+        text-align: center;
+    }
+    
+}
 
 /* For Extra small Devices */
 @media (max-width:575px) {
@@ -92,7 +122,7 @@ body {
 
 /* Customized BreakPoint for our Heading */
 
-@media (max-width:350px)  {
+@media (max-width:400px)  {
     #heading-text{
         font-size: 16px;
     }
@@ -110,10 +140,10 @@ body {
 .navbar-toggler-icon{
     background-color:white;
 }
-
+/* 
 .carousel-item{
     height: 70vh;
-}
+} */
 
 .carousel-caption{
     color: black;
@@ -121,6 +151,11 @@ body {
 .item-one-url:visited{
     color: black;
 }
+.item-one-url:link{
+    color: black;
+}
 .item-two-url:visited,.item-three-url:visited {color: white;
     }
-
+.item-two-url:link,.item-three-url:link{
+    color: white;
+} 
